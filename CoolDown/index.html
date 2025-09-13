@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CoolDown - Mood Tracker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="text-header"><h1>CoolDown</h1></header>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="index.html" aria-current="page">Mood Tracker</a>
+    <a href="calendar.html">Calendar</a>
+    <a href="steps.html">Take Action</a>
+  </nav>
+  <main class="container">
+    <section class="card">
+      <h2>Mood Tracker</h2>
+      <p>If you could describe your day with an emoji, what would it be?</p>
+      <div class="emoji-options">
+        <button class="emoji-btn" type="button" data-emoji="😀">😀</button>
+        <button class="emoji-btn" type="button" data-emoji="🙂">🙂</button>
+        <button class="emoji-btn" type="button" data-emoji="😐">😐</button>
+        <button class="emoji-btn" type="button" data-emoji="😕">😕</button>
+        <button class="emoji-btn" type="button" data-emoji="😡">😡</button>
+      </div>
+      <textarea id="reflection" placeholder="Write your reflection here..." rows="6"></textarea>
+      <div class="actions"><button id="saveEntry" class="primary">Save Entry</button></div>
+    </section>
+  </main>
+  <footer><p>CoolDown | Control your anger before it controls you.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
